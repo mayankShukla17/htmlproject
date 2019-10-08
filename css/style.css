@@ -1,0 +1,52 @@
+body{
+    /* height: 100%;
+    background-color: #ffffff;
+    background-image: url(images/overlay.png), -moz-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url(../../images/bg.jpg);
+    background-image: url(images/overlay.png), -webkit-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url(../../images/bg.jpg);
+    background-image: url(images/overlay.png), -ms-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url(../../images/bg.jpg);
+    background-image: url(images/overlay.png), linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url(../../images/bg.jpg);
+    background-repeat: repeat, no-repeat, no-repeat;
+    background-size: 100px 100px, cover, cover;
+    background-position: top left, center center, bottom center;
+    background-attachment: fixed, fixed, fixed; */
+    height: 100%;
+    background: url('../images/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    /* background-position: top left, center center, bottom center; */
+    background-attachment: fixed fixed fixed;
+}
+
+section{
+    background: white;
+    padding: 50px;
+    border: 1px solid #ccc;
+    width: 300px;
+    margin: 40px auto;
+    text-align: center;
+}
+img{
+    border-radius: 100%;
+}
+ul li {
+    display: inline-block;
+}
+h1{
+    text-transform: uppercase;
+}
+.fa-facebook{
+    background: #3b5998;
+}
+.fa-twitter{
+    background: #00acee;
+}
+.fa-instagram{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+}
+.fa{
+    padding: 10px;
+    color: #fff;
+    border-radius: 100%;
+}
+
